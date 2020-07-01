@@ -1,7 +1,7 @@
 platform :ios, '7.0'
 use_frameworks!
 
-target '东方幼儿园测试' do
+target '十一园测试' do
 
 pod 'AFNetworking', 		'~> 2.5.0'
 pod 'AliyunOSSiOS', 		'~> 2.3.0.1'

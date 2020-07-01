@@ -68,22 +68,6 @@ DEPENDENCIES:
   - ReactiveCocoa (~> 2.5)
   - TTTAttributedLabel (~> 1.13.4)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - AFNetworking
-    - AliyunOSSiOS
-    - FXBlurView
-    - JTCalendar
-    - Mantle
-    - Masonry
-    - MBProgressHUD
-    - MLLabel
-    - MMDrawerController
-    - MMPopupView
-    - RATreeView
-    - ReactiveCocoa
-    - TTTAttributedLabel
-
 SPEC CHECKSUMS:
   AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
   AliyunOSSiOS: 8f99dea52bd318ab57aa899815e8475c1bfa6e8a
@@ -99,6 +83,6 @@ SPEC CHECKSUMS:
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
 
-PODFILE CHECKSUM: b5685c0350ae3a44242df0d26ad83deeb457d69c
+PODFILE CHECKSUM: 723d570c246e16bbbb1273166626133e2c35c013
 
-COCOAPODS: 1.7.0.beta.2
+COCOAPODS: 1.0.1

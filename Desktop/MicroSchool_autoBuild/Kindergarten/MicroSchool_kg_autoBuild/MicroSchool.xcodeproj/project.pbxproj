@@ -1783,6 +1783,7 @@
 		446B8BD21B27CEAA00677E41 /* icon_mdr@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mdr@2x.png"; sourceTree = "<group>"; };
 		446B8BD31B27CEAA00677E41 /* icon_mdr@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_mdr@3x.png"; sourceTree = "<group>"; };
 		446B8BD61B28423200677E41 /* reciveDefaultImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reciveDefaultImg@2x.png"; sourceTree = "<group>"; };
+		446D14DB1B6F325F0010AFCF /* libPods-MLLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MLLabel.a"; path = "Pods/build/Debug-iphoneos/libPods-MLLabel.a"; sourceTree = "<group>"; };
 		446D14DD1B6F3DF80010AFCF /* Expression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Expression.bundle; sourceTree = "<group>"; };
 		446DBC391BA968AD008A707D /* GraduateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraduateViewController.h; sourceTree = "<group>"; };
 		446DBC3A1BA968AD008A707D /* GraduateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraduateViewController.m; sourceTree = "<group>"; };
@@ -1847,6 +1848,7 @@
 		4495AD3F1BCA3CC800A65004 /* unOpenPopBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unOpenPopBg.png; sourceTree = "<group>"; };
 		4495D9BE1B6C98B000C6F768 /* MLEmojiLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLEmojiLabel.h; sourceTree = "<group>"; };
 		4495D9BF1B6C98B000C6F768 /* MLEmojiLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLEmojiLabel.m; sourceTree = "<group>"; };
+		4495D9C11B6CAF7500C6F768 /* libPods-TTTAttributedLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-TTTAttributedLabel.a"; path = "Pods/build/Debug-iphoneos/libPods-TTTAttributedLabel.a"; sourceTree = "<group>"; };
 		4496BC021B0F340000225E90 /* mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mask@2x.png"; sourceTree = "<group>"; };
 		449718821ADE150600A950AA /* NewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListViewController.h; sourceTree = "<group>"; };
 		449718831ADE150600A950AA /* NewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsListViewController.m; sourceTree = "<group>"; };
@@ -1910,6 +1912,7 @@
 		44C299F01CA1305A009B8C4C /* RATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATableViewCell.h; sourceTree = "<group>"; };
 		44C299F11CA1305A009B8C4C /* RATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATableViewCell.m; sourceTree = "<group>"; };
 		44C299F21CA1305A009B8C4C /* RATableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RATableViewCell.xib; sourceTree = "<group>"; };
+		44C299F61CA138DE009B8C4C /* libRATreeView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRATreeView.a; path = "Pods/../build/Debug-iphoneos/libRATreeView.a"; sourceTree = "<group>"; };
 		44C299FC1CA15F1A009B8C4C /* CommonIconsAndPics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CommonIconsAndPics; sourceTree = "<group>"; };
 		44C5B5DE1B32A61500C75291 /* btn_hy_d_b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_hy_d_b@2x.png"; sourceTree = "<group>"; };
 		44C5B5DF1B32A61500C75291 /* btn_hy_d_b@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_hy_d_b@3x.png"; sourceTree = "<group>"; };
@@ -2048,6 +2051,13 @@
 		44F8E36E1D9A5F8100CFAFE9 /* SignStatisticsViewControTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignStatisticsViewControTableViewCell.m; sourceTree = "<group>"; };
 		44FA7D0B1C98325E00FCDFF4 /* noClassBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "noClassBg@2x.png"; path = "ClassKin/noClassBg@2x.png"; sourceTree = "<group>"; };
 		44FAC3BC1C31047700A8A5F9 /* icon_viewNum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_viewNum@2x.png"; sourceTree = "<group>"; };
+		44FAC3BE1C310B3E00A8A5F9 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		44FAC3C01C310B4600A8A5F9 /* libMLLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMLLabel.a; path = "Pods/../build/Debug-iphoneos/libMLLabel.a"; sourceTree = "<group>"; };
+		44FAC3C21C310B4C00A8A5F9 /* libMBProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMBProgressHUD.a; path = "Pods/../build/Debug-iphoneos/libMBProgressHUD.a"; sourceTree = "<group>"; };
+		44FAC3C41C310B5700A8A5F9 /* libMantle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMantle.a; path = "Pods/../build/Debug-iphoneos/libMantle.a"; sourceTree = "<group>"; };
+		44FAC3C61C310B5B00A8A5F9 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "Pods/../build/Debug-iphoneos/libMasonry.a"; sourceTree = "<group>"; };
+		44FAC3C81C310B5E00A8A5F9 /* libMMDrawerController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMDrawerController.a; path = "Pods/../build/Debug-iphoneos/libMMDrawerController.a"; sourceTree = "<group>"; };
+		44FAC3CA1C310B6300A8A5F9 /* libTTTAttributedLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTTTAttributedLabel.a; path = "Pods/../build/Debug-iphoneos/libTTTAttributedLabel.a"; sourceTree = "<group>"; };
 		44FC9ABC1D76871F00FF2845 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		44FEB48F1DFF953000B6C28E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		44FEB4911DFF9E3F00B6C28E /* AtListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtListTableViewCell.h; sourceTree = "<group>"; };
@@ -2082,8 +2092,7 @@
 		5250B2121CA4E5C40000D02B /* MircroLoginSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MircroLoginSelect.png; sourceTree = "<group>"; };
 		525F02401CB5F9B900DC2AA8 /* 加载动效2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载动效2.gif"; sourceTree = "<group>"; };
 		529DF56E1CA92CAB0034CCC9 /* 无评论_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无评论_03.png"; sourceTree = "<group>"; };
-		7A15F865407F9C6AECB2DA00 /* Pods-东方幼儿园测试.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-东方幼儿园测试.debug.xcconfig"; path = "Pods/Target Support Files/Pods-东方幼儿园测试/Pods-东方幼儿园测试.debug.xcconfig"; sourceTree = "<group>"; };
-		8B1D94B6CB9A425571F40B6F /* Pods-东方幼儿园测试.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-东方幼儿园测试.release.xcconfig"; path = "Pods/Target Support Files/Pods-东方幼儿园测试/Pods-东方幼儿园测试.release.xcconfig"; sourceTree = "<group>"; };
+		99B5C2EA745506A0F51195C3 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D1DCA6CEBC327A824D2BD7 /* Pods-十一园测试.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-十一园测试.debug.xcconfig"; path = "Pods/Target Support Files/Pods-十一园测试/Pods-十一园测试.debug.xcconfig"; sourceTree = "<group>"; };
 		A303838519BEB58A00B2E55B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A30D01411A1330420002444D /* ParenthoodListForParentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParenthoodListForParentTableViewController.h; sourceTree = "<group>"; };
@@ -2181,6 +2190,7 @@
 		A32517CB1A11B61F00BDBA2F /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
 		A32517CC1A11B61F00BDBA2F /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
 		A32517CD1A11B61F00BDBA2F /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		A32517D21A11B69B00BDBA2F /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = MicroSchool/libzbar.a; sourceTree = "<group>"; };
 		A32517D51A11B8A500BDBA2F /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
 		A32517D61A11B8A500BDBA2F /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
 		A32517D71A11B8A500BDBA2F /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
@@ -2765,10 +2775,13 @@
 		E5D668481D46096D0013D62E /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
 		E5D6684A1D48AADC0013D62E /* LoginAliPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAliPayViewController.h; sourceTree = "<group>"; };
 		E5D6684B1D48AADC0013D62E /* LoginAliPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAliPayViewController.m; sourceTree = "<group>"; };
+		EB05924B1C4215D200D8ACFA /* libMMDrawerController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMDrawerController.a; path = "Pods/../build/Debug-iphoneos/libMMDrawerController.a"; sourceTree = "<group>"; };
+		EB05924D1C42165C00D8ACFA /* libMMDrawerController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMDrawerController.a; path = "Pods/../build/Debug-iphoneos/libMMDrawerController.a"; sourceTree = "<group>"; };
 		EB0770741C2A8F1500AF7925 /* JKPopMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPopMenuItem.h; sourceTree = "<group>"; };
 		EB0770751C2A8F1500AF7925 /* JKPopMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPopMenuItem.m; sourceTree = "<group>"; };
 		EB0770761C2A8F1500AF7925 /* JKPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPopMenuView.h; sourceTree = "<group>"; };
 		EB0770771C2A8F1500AF7925 /* JKPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPopMenuView.m; sourceTree = "<group>"; };
+		EB07707A1C2A8F8E00AF7925 /* libFXBlurView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFXBlurView.a; path = "Pods/../build/Debug-iphoneos/libFXBlurView.a"; sourceTree = "<group>"; };
 		EB07707C1C2A91A900AF7925 /* TSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAlertView.h; sourceTree = "<group>"; };
 		EB07707D1C2A91A900AF7925 /* TSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAlertView.m; sourceTree = "<group>"; };
 		EB07707E1C2A91A900AF7925 /* TSNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNetworking.h; sourceTree = "<group>"; };
@@ -2787,10 +2800,19 @@
 		EB1B7A181C9A57CE003C265C /* PresenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresenceViewController.m; sourceTree = "<group>"; };
 		EB1B7A1A1C9A59E9003C265C /* PresenceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenceTableViewCell.h; sourceTree = "<group>"; };
 		EB1B7A1B1C9A59E9003C265C /* PresenceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresenceTableViewCell.m; sourceTree = "<group>"; };
+		EB1DCC071C310DE900883E12 /* libFXBlurView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFXBlurView.a; path = "Pods/../build/Debug-iphoneos/libFXBlurView.a"; sourceTree = "<group>"; };
+		EB1DCC091C31102300883E12 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		EB1DCC0B1C31102600883E12 /* libMantle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMantle.a; path = "Pods/../build/Debug-iphoneos/libMantle.a"; sourceTree = "<group>"; };
+		EB1DCC0D1C31102A00883E12 /* libMasonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMasonry.a; path = "Pods/../build/Debug-iphoneos/libMasonry.a"; sourceTree = "<group>"; };
+		EB1DCC0F1C31102D00883E12 /* libMBProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMBProgressHUD.a; path = "Pods/../build/Debug-iphoneos/libMBProgressHUD.a"; sourceTree = "<group>"; };
+		EB1DCC111C31103500883E12 /* libMLLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMLLabel.a; path = "Pods/../build/Debug-iphoneos/libMLLabel.a"; sourceTree = "<group>"; };
+		EB1DCC131C31103900883E12 /* libTTTAttributedLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTTTAttributedLabel.a; path = "Pods/../build/Debug-iphoneos/libTTTAttributedLabel.a"; sourceTree = "<group>"; };
+		EB1DCC151C31103D00883E12 /* libMMDrawerController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMDrawerController.a; path = "Pods/../build/Debug-iphoneos/libMMDrawerController.a"; sourceTree = "<group>"; };
 		EB2036731CBF365F0048AD21 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		EB20367C1CBFB2470048AD21 /* title_bgImage_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_bgImage_black.png; sourceTree = "<group>"; };
 		EB2362D319F8D9E200BC3178 /* FriendProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendProfileViewController.h; sourceTree = "<group>"; };
 		EB2362D419F8D9E200BC3178 /* FriendProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendProfileViewController.m; sourceTree = "<group>"; };
+		EB24B1F71D70137B00B82384 /* libJTCalendar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJTCalendar.a; path = "../../../../Library/Developer/Xcode/DerivedData/MicroSchool-bufndweixwmxjrajohqyyqlpijyp/Build/Products/Debug-iphonesimulator/JTCalendar/libJTCalendar.a"; sourceTree = "<group>"; };
 		EB29ABC71B3BB10C00F3288E /* news */ = {isa = PBXFileReference; lastKnownFileType = folder; path = news; sourceTree = "<group>"; };
 		EB29ABC91B3CEDFE00F3288E /* NewsCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCommentViewController.h; sourceTree = "<group>"; };
 		EB29ABCA1B3CEDFE00F3288E /* NewsCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCommentViewController.m; sourceTree = "<group>"; };
@@ -2890,6 +2912,7 @@
 		EB66A0A21C780C9700FF6C68 /* ReadStatusObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadStatusObject.m; sourceTree = "<group>"; };
 		EB66A0A41C780D9700FF6C68 /* ReadStatusDBDao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadStatusDBDao.h; sourceTree = "<group>"; };
 		EB66A0A51C780D9700FF6C68 /* ReadStatusDBDao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadStatusDBDao.m; sourceTree = "<group>"; };
+		EB7117F51D4064B7004ED876 /* libMMPopupView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMMPopupView.a; path = "Pods/../build/Debug-iphoneos/libMMPopupView.a"; sourceTree = "<group>"; };
 		EB7117F81D4064E4004ED876 /* TSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLabel.h; sourceTree = "<group>"; };
 		EB7117F91D4064E4004ED876 /* TSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLabel.m; sourceTree = "<group>"; };
 		EB7117FA1D4064E4004ED876 /* TSPopupItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSPopupItem.h; sourceTree = "<group>"; };
@@ -2902,6 +2925,7 @@
 		EB7118051D406781004ED876 /* UIGuidelineDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGuidelineDefine.m; sourceTree = "<group>"; };
 		EB71F75E1E00DDF70062AC04 /* Camera360 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Camera360; sourceTree = "<group>"; };
 		EB747F9E1CA54AB2004E63D7 /* BlankViewImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BlankViewImage; sourceTree = "<group>"; };
+		EB753C851C119646007B81D4 /* libPods-Masonry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Masonry.a"; path = "Pods/build/Debug-iphoneos/libPods-Masonry.a"; sourceTree = "<group>"; };
 		EB7721A01C619A000029DABF /* HomeworkStateListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkStateListViewController.h; sourceTree = "<group>"; };
 		EB7721A11C619A000029DABF /* HomeworkStateListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeworkStateListViewController.m; sourceTree = "<group>"; };
 		EB7721A31C619C980029DABF /* HomeworkStateDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeworkStateDetailViewController.h; sourceTree = "<group>"; };
@@ -3309,6 +3333,7 @@
 		EBD24FD41A9D9CE000C03400 /* KnowledgeCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeCommentTableViewCell.m; sourceTree = "<group>"; };
 		EBD24FD51A9D9CE000C03400 /* KnowledgeCommentTopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledgeCommentTopTableViewCell.h; sourceTree = "<group>"; };
 		EBD24FD61A9D9CE000C03400 /* KnowledgeCommentTopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeCommentTopTableViewCell.m; sourceTree = "<group>"; };
+		EBD24FDE1AA59A9C00C03400 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
 		EBD3B7AE19F7511000BB40CB /* spl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spl.png; sourceTree = "<group>"; };
 		EBD3B7B019F794F300BB40CB /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		EBD3B7B119F794F300BB40CB /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
@@ -3326,12 +3351,14 @@
 		EBD83E751A1F280E000C2D5B /* spl_640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spl_640_960.png; sourceTree = "<group>"; };
 		EBD83E761A1F280E000C2D5B /* spl_640_1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spl_640_1136.png; sourceTree = "<group>"; };
 		EBD8CE1A1A8456FE00495A52 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = MicroSchool/Utilities/ZBarSDK/libzbar.a; sourceTree = "<group>"; };
+		EBD8CE1C1A845BB600495A52 /* libPods-Mantle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Mantle.a"; path = "Pods/build/Debug-iphoneos/libPods-Mantle.a"; sourceTree = "<group>"; };
 		EBD925BE1A88536B00B0AF9C /* KnowledgeHotWikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledgeHotWikiViewController.h; sourceTree = "<group>"; };
 		EBD925BF1A88536B00B0AF9C /* KnowledgeHotWikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeHotWikiViewController.m; sourceTree = "<group>"; };
 		EBD925C41A885D5A00B0AF9C /* KnowledgeHotWikiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledgeHotWikiModel.h; sourceTree = "<group>"; };
 		EBD925C51A885D5A00B0AF9C /* KnowledgeHotWikiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeHotWikiModel.m; sourceTree = "<group>"; };
 		EBD925C71A8889C000B0AF9C /* KnowledgeHotWikiFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledgeHotWikiFilterViewController.h; sourceTree = "<group>"; };
 		EBD925C81A8889C000B0AF9C /* KnowledgeHotWikiFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeHotWikiFilterViewController.m; sourceTree = "<group>"; };
+		EBD925CA1A888A9C00B0AF9C /* libPods-MMDrawerController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MMDrawerController.a"; path = "Pods/build/Debug-iphoneos/libPods-MMDrawerController.a"; sourceTree = "<group>"; };
 		EBD925CC1A8895B900B0AF9C /* MMNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNavigationController.h; sourceTree = "<group>"; };
 		EBD925CD1A8895B900B0AF9C /* MMNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNavigationController.m; sourceTree = "<group>"; };
 		EBD9BCD11A36F4A7006DFFE9 /* tlq_clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tlq_clock.png; sourceTree = "<group>"; };
@@ -3361,6 +3388,7 @@
 		EBE2AF291A906C1D00FAE953 /* KnowledgeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeDetailViewController.m; sourceTree = "<group>"; };
 		EBE3D2301ADBBD6D00050CC3 /* TestApiTSNetworkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestApiTSNetworkingViewController.h; sourceTree = "<group>"; };
 		EBE3D2311ADBBD6D00050CC3 /* TestApiTSNetworkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestApiTSNetworkingViewController.m; sourceTree = "<group>"; };
+		EBE3D2331ADBD41F00050CC3 /* libPods-MBProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-MBProgressHUD.a"; path = "Pods/build/Debug-iphoneos/libPods-MBProgressHUD.a"; sourceTree = "<group>"; };
 		EBE81C531AE4A2DB007A9A72 /* MomentsSharedLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsSharedLink.h; sourceTree = "<group>"; };
 		EBE81C541AE4A2DB007A9A72 /* MomentsSharedLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsSharedLink.m; sourceTree = "<group>"; };
 		EBE9C0DE1BCD3B4700F81BF2 /* submimit_select_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submimit_select_p@2x.png"; sourceTree = "<group>"; };
@@ -4244,8 +4272,6 @@
 			children = (
 				A1D1DCA6CEBC327A824D2BD7 /* Pods-十一园测试.debug.xcconfig */,
 				3E7D2C99CF6245A6CEEFBFDC /* Pods-十一园测试.release.xcconfig */,
-				7A15F865407F9C6AECB2DA00 /* Pods-东方幼儿园测试.debug.xcconfig */,
-				8B1D94B6CB9A425571F40B6F /* Pods-东方幼儿园测试.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -5635,15 +5661,44 @@
 				EB9EF6581D7828ED00374B2A /* ReactiveCocoa.framework */,
 				EB9EF6591D7828ED00374B2A /* TTTAttributedLabel.framework */,
 				44FC9ABC1D76871F00FF2845 /* JavaScriptCore.framework */,
+				EB24B1F71D70137B00B82384 /* libJTCalendar.a */,
+				EB7117F51D4064B7004ED876 /* libMMPopupView.a */,
 				EB2036731CBF365F0048AD21 /* AVKit.framework */,
+				44C299F61CA138DE009B8C4C /* libRATreeView.a */,
+				EB05924D1C42165C00D8ACFA /* libMMDrawerController.a */,
+				EB05924B1C4215D200D8ACFA /* libMMDrawerController.a */,
+				EB1DCC151C31103D00883E12 /* libMMDrawerController.a */,
+				EB1DCC131C31103900883E12 /* libTTTAttributedLabel.a */,
+				EB1DCC111C31103500883E12 /* libMLLabel.a */,
+				EB1DCC0F1C31102D00883E12 /* libMBProgressHUD.a */,
+				EB1DCC0D1C31102A00883E12 /* libMasonry.a */,
+				EB1DCC0B1C31102600883E12 /* libMantle.a */,
+				EB1DCC091C31102300883E12 /* libAFNetworking.a */,
+				EB1DCC071C310DE900883E12 /* libFXBlurView.a */,
+				44FAC3CA1C310B6300A8A5F9 /* libTTTAttributedLabel.a */,
+				44FAC3C81C310B5E00A8A5F9 /* libMMDrawerController.a */,
+				44FAC3C61C310B5B00A8A5F9 /* libMasonry.a */,
+				44FAC3C41C310B5700A8A5F9 /* libMantle.a */,
+				44FAC3C21C310B4C00A8A5F9 /* libMBProgressHUD.a */,
+				44FAC3C01C310B4600A8A5F9 /* libMLLabel.a */,
+				44FAC3BE1C310B3E00A8A5F9 /* libAFNetworking.a */,
+				EB07707A1C2A8F8E00AF7925 /* libFXBlurView.a */,
+				EB753C851C119646007B81D4 /* libPods-Masonry.a */,
 				447373591BE07714002E5D82 /* MessageUI.framework */,
 				EBF7B6CA1B8AF50600E3E110 /* libbz2.1.0.dylib */,
 				EBF7B6C61B8AF15400E3E110 /* CoreVideo.framework */,
+				446D14DB1B6F325F0010AFCF /* libPods-MLLabel.a */,
+				4495D9C11B6CAF7500C6F768 /* libPods-TTTAttributedLabel.a */,
 				445A48281B65D59E00BBAFA1 /* WebKit.framework */,
 				EB0B2E881B40E98A000CAE8B /* libstdc++.dylib */,
+				EBE3D2331ADBD41F00050CC3 /* libPods-MBProgressHUD.a */,
+				EBD24FDE1AA59A9C00C03400 /* libPods-AFNetworking.a */,
+				EBD925CA1A888A9C00B0AF9C /* libPods-MMDrawerController.a */,
+				EBD8CE1C1A845BB600495A52 /* libPods-Mantle.a */,
 				EBD8CE1A1A8456FE00495A52 /* libzbar.a */,
 				EB8289681A7A169500725847 /* MediaPlayer.framework */,
 				EB8289661A7A168D00725847 /* AudioToolbox.framework */,
+				A32517D21A11B69B00BDBA2F /* libzbar.a */,
 				A32517AF1A11B5C400BDBA2F /* CoreAudio.framework */,
 				A32517AD1A11B5B900BDBA2F /* CoreMedia.framework */,
 				A32517AB1A11B5AB00BDBA2F /* AVFoundation.framework */,
@@ -5667,6 +5722,7 @@
 				EBACD4DD1820011A00ACA96E /* CoreGraphics.framework */,
 				EBACD4DF1820011A00ACA96E /* UIKit.framework */,
 				EBACD4FD1820011A00ACA96E /* XCTest.framework */,
+				99B5C2EA745506A0F51195C3 /* Pods______.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -6968,6 +7024,7 @@
 				EBACD4D51820011A00ACA96E /* Frameworks */,
 				EBACD4D61820011A00ACA96E /* Resources */,
 				BA98A008C3B51B0636C448D6 /* [CP] Embed Pods Frameworks */,
+				2A821459BA41FEAF99B9FE99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -7861,22 +7918,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2A821459BA41FEAF99B9FE99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-十一园测试/Pods-十一园测试-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		575CDAA03BF84EDC74CAF665 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-东方幼儿园测试-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		BA98A008C3B51B0636C448D6 /* [CP] Embed Pods Frameworks */ = {
@@ -7885,40 +7954,13 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-东方幼儿园测试/Pods-东方幼儿园测试-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/AliyunOSSiOS/AliyunOSSiOS.framework",
-				"${BUILT_PRODUCTS_DIR}/FXBlurView/FXBlurView.framework",
-				"${BUILT_PRODUCTS_DIR}/JTCalendar/JTCalendar.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MLLabel/MLLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/MMDrawerController/MMDrawerController.framework",
-				"${BUILT_PRODUCTS_DIR}/MMPopupView/MMPopupView.framework",
-				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/RATreeView/RATreeView.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AliyunOSSiOS.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FXBlurView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTCalendar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDrawerController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMPopupView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RATreeView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-东方幼儿园测试/Pods-东方幼儿园测试-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-十一园测试/Pods-十一园测试-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -8698,7 +8740,7 @@
 		};
 		EBACD50E1820011A00ACA96E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A15F865407F9C6AECB2DA00 /* Pods-东方幼儿园测试.debug.xcconfig */;
+			baseConfigurationReference = A1D1DCA6CEBC327A824D2BD7 /* Pods-十一园测试.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -8775,7 +8817,7 @@
 		};
 		EBACD50F1820011A00ACA96E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B1D94B6CB9A425571F40B6F /* Pods-东方幼儿园测试.release.xcconfig */;
+			baseConfigurationReference = 3E7D2C99CF6245A6CEEFBFDC /* Pods-十一园测试.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
