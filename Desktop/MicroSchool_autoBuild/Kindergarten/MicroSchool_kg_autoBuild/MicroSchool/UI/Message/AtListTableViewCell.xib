@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AtListTableViewCell" rowHeight="45" id="KGk-i7-Jjw" customClass="AtListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HQ1-Zw-r9T">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="34" id="612-CD-zws"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="612-CD-zws"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="612-CD-zws"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7H-ot-qYB">
+                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="P7H-ot-qYB" firstAttribute="centerY" secondItem="HQ1-Zw-r9T" secondAttribute="centerY" id="46O-L4-zeG"/>
+                    <constraint firstItem="HQ1-Zw-r9T" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="6Ap-9Q-jGM"/>
+                    <constraint firstItem="HQ1-Zw-r9T" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="HW4-I2-IHI"/>
+                    <constraint firstItem="HQ1-Zw-r9T" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="VyQ-Jr-aTn"/>
+                    <constraint firstItem="P7H-ot-qYB" firstAttribute="leading" secondItem="HQ1-Zw-r9T" secondAttribute="trailing" constant="14" id="i0A-Tf-5tr"/>
+                    <constraint firstItem="P7H-ot-qYB" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="jxA-EQ-Tup"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="HQ1-Zw-r9T"/>
+                        <exclude reference="P7H-ot-qYB"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="46O-L4-zeG"/>
+                        <exclude reference="i0A-Tf-5tr"/>
+                        <exclude reference="jxA-EQ-Tup"/>
+                        <exclude reference="6Ap-9Q-jGM"/>
+                        <exclude reference="HW4-I2-IHI"/>
+                        <exclude reference="VyQ-Jr-aTn"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="HQ1-Zw-r9T"/>
+                        <include reference="P7H-ot-qYB"/>
+                    </mask>
+                    <mask key="constraints">
+                        <include reference="46O-L4-zeG"/>
+                        <include reference="i0A-Tf-5tr"/>
+                        <include reference="jxA-EQ-Tup"/>
+                        <include reference="6Ap-9Q-jGM"/>
+                        <include reference="HW4-I2-IHI"/>
+                        <include reference="VyQ-Jr-aTn"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgV" destination="HQ1-Zw-r9T" id="ued-cf-AbF"/>
+                <outlet property="titleLabel" destination="P7H-ot-qYB" id="Nz8-Vx-BDz"/>
+            </connections>
+            <point key="canvasLocation" x="258" y="219.5"/>
+        </tableViewCell>
+    </objects>
+</document>

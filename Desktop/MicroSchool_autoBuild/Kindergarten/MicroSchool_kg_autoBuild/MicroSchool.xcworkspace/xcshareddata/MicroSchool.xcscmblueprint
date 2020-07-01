@@ -1,0 +1,26 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1dbb8854-57f2-43cb-9f69-9b0ff15371a7++4718",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "1dbb8854-57f2-43cb-9f69-9b0ff15371a7++4718" : {
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "weixiao\/ios\/tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "weixiao\/ios\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1dbb8854-57f2-43cb-9f69-9b0ff15371a7++4718" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "85D158E4-C7D7-4C08-863E-DC62589C38FE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1dbb8854-57f2-43cb-9f69-9b0ff15371a7++4718" : "svn_etaishuo_iOS_tag\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MicroSchool",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MicroSchool_kg_autoBuild\/MicroSchool.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.etaishuo.com:8081\/mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1dbb8854-57f2-43cb-9f69-9b0ff15371a7++4718"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraSettingViewController">
+            <connections>
+                <outlet property="tableView" destination="zau-hX-tBV" id="Fcr-wV-hYp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="zau-hX-tBV">
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="E6K-Fr-qEF"/>
+                        <outlet property="delegate" destination="-1" id="yIG-I4-GU3"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zau-hX-tBV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="IqO-av-e6X"/>
+                <constraint firstAttribute="trailing" secondItem="zau-hX-tBV" secondAttribute="trailing" id="KKH-Oh-JS2"/>
+                <constraint firstItem="zau-hX-tBV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Rft-uY-bta"/>
+                <constraint firstAttribute="bottom" secondItem="zau-hX-tBV" secondAttribute="bottom" id="nTO-EM-iHK"/>
+            </constraints>
+            <point key="canvasLocation" x="-208.5" y="45.5"/>
+        </view>
+    </objects>
+</document>

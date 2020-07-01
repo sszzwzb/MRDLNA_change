@@ -1,0 +1,6 @@
+framework module Pods________ {
+  umbrella header "Pods-东方幼儿园测试-umbrella.h"
+
+  export *
+  module * { export * }
+}
