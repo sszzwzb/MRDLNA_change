@@ -1,0 +1,137 @@
+
+TAPD（Tencent Agile Product Development）腾讯敏捷协作平台
+
+
+
+
+socket
+
+
+flutter或者weex有没有搞过
+
+rxSwift，swiftUI
+
+swift最常问的就是struct和class有什么区别
+
+
+
+还有个深拷贝浅拷贝，NSString、NSMutebleString、NSArray、NSMutebleArray的深拷贝浅拷贝
+
+runtime、runloop、block、堆栈、分类扩展、多线程、锁、KVC KVO、数据存储、数据结构、算法
+
+数据加密安全，性能优化，渲染，图层混合
+
+20以上基本都会问runtime，比如isa指针指向什么
+
+架构方面的，无非就是高内聚低耦合，思维靠上就可以的
+
+组件化看一看，包括结构、逻辑等等吧
+
+组件化一般需要描述一下，然后会问个实际问题的解决
+
+还有MVC、MVVM、组件化  MVVM+rac
+
+
+框架
+现在大多数mvvm，组件化，Viper这种的很少
+
+
+响应链
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+msg_send 流程
+
+
+
+
+
+runtime三次拯救的机会都是什么时候触发的
+
+
+还有一些常见的异常
+比如unrecognized select
+
+objc在向一个对象发送消息时，runtime库会根据对象的isa指针找到该对象实际所属的类，然后在该类中的方法列表以及其父类方法列表中寻找方法运行，如果，在最顶层的父类中依然找不到相应的方法时，程序在运行时会挂掉并抛出异常unrecognized selector sent to XXX 。但是在这之前，objc的运行时会给出三次拯救程序崩溃的机会:
+
+Method resolution
+objc运行时会调用+resolveInstanceMethod:或者 +resolveClassMethod:，让你有机会提供一个函数实现。如果你添加了函数，那运行时系统就会重新启动一次消息发送的过程，否则 ，运行时就会移到下一步，消息转发（Message Forwarding）。
+
+Fast forwarding
+如果目标对象实现了-forwardingTargetForSelector:，Runtime 这时就会调用这个方法，给你把这个消息转发给其他对象的机会。
+只要这个方法返回的不是nil和self，整个消息发送的过程就会被重启，当然发送的对象会变成你返回的那个对象。否则，就会继续Normal Fowarding。
+这里叫Fast，只是为了区别下一步的转发机制。因为这一步不会创建任何新的对象，但下一步转发会创建一个NSInvocation对象，所以相对更快点。
+
+Normal forwarding
+这一步是Runtime最后一次给你挽救的机会。首先它会发送-methodSignatureForSelector:消息获得函数的参数和返回值类型。如果-methodSignatureForSelector:返回nil，Runtime则会发出-doesNotRecognizeSelector:消息，程序这时也就挂掉了。如果返回了一个函数签名，Runtime就会创建一个NSInvocation对象并发送-forwardInvocation:消息给目标对象。
+
+作者：iWander
+链接：https://www.jianshu.com/p/c7dedcd0b662
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+
+
+
+
+# @property (nonatomic,strong)
+# （copy）深拷贝，浅拷贝
+# 正常的 strong
+
+总结：
+
+由上面的例子可以得出：
+
+当原字符串是NSString时，由于是不可变字符串，所以，不管使用strong还是copy修饰，都是指向原来的对象，copy操作只是做了一次浅拷贝。
+而当源字符串是NSMutableString时，strong只是将源字符串的引用计数加1，而copy则是对原字符串做了次深拷贝，从而生成了一个新的对象，并且copy的对象指向这个新对象。另外需要注意的是，这个copy属性对象的类型始终是NSString，而不是NSMutableString，如果想让拷贝过来的对象是可变的，就要使用mutableCopy。
+所以，如果源字符串是NSMutableString的时候，使用strong只会增加引用计数。
+但是copy会执行一次深拷贝，会造成不必要的内存浪费。而如果原字符串是NSString时，strong和copy效果一样，就不会有这个问题。
+但是，我们一般声明NSString时，也不希望它改变，所以一般情况下，建议使用copy，这样可以避免NSMutableString带来的错误。
+
+
+
+## 案例
+## ：1、深拷贝
+![截屏2021-04-21 下午3.40.26](media/16189907847615/%E6%88%AA%E5%B1%8F2021-04-21%20%E4%B8%8B%E5%8D%883.40.26.png)
+
+
+## 2、浅拷贝
+![截屏2021-04-21 下午3.41.04](media/16189907847615/%E6%88%AA%E5%B1%8F2021-04-21%20%E4%B8%8B%E5%8D%883.41.04.png)
+
+
+
+
+# 顺便路过提一下assign与weak
+
+我们都知道，assign用来修饰基本数据类型，weak用来修饰OC对象。
+
+其实照理，assign也能修饰OC对象，但是assign修饰的对象在该对象释放后，其指针依然存在，不会被置为nil——这就造成了一个很严重的问题：出现了野指针。当访问这个野指针时，指向了原地址，而原地址有两种情况：
+
+第一种情况：原地址没有改变，代码运行通过，但很有可能有逻辑bug。
+第二种情况：原地址已经改变，结果不可预测，多数崩溃，也有可能出现其他莫名错误。
+但是用weak来修饰的话，对象释放的时候会把指针置为nil，从而避免了野指针的出现。
+
+那又有个疑问出现了，凭什么基本数据类型就可以使用assign。这就要扯到堆和栈的问题了，基本数据类型会被分配到栈空间，而栈空间是由系统自动管理分配和释放的，就不会造成野指针的问题。
+
+作者：QiShare
+链接：https://www.jianshu.com/p/62913d6cbc40
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+
+
+
+
