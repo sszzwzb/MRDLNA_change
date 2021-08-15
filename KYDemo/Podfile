@@ -1,0 +1,21 @@
+# source 'https://github.com/CocoaPods/Specs.git'
+platform:ios, '10.0'
+
+target 'player_Drag' do
+    
+    pod 'ZFPlayer',                             '~> 4.0.1'
+    pod 'ZFPlayer/ControlView',                 '~> 4.0'
+    pod 'ZFPlayer/AVPlayer',                    '~> 4.0'
+    pod 'ZFPlayer/ijkplayer',                   '~> 4.0'
+    
+    pod 'SDWebImage',                           '~> 5.11.1'
+    
+    
+    # '~> 0.1.1' # 435 stars  来自 DLNA_UPnP   0.1.1  不要重新删除，添加和升级
+    pod 'MRDLNA', :git => 'https://github.com/sszzwzb/podTest.git'
+     
+      
+    
+    
+
+end
