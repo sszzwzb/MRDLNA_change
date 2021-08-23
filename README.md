@@ -18,7 +18,7 @@
 pod 'MRDLNA' ,  '~> 0.1.1'
 
 添加功能后的地址
-pod 'MRDLNA', :git => 'https://github.com/sszzwzb/podTest.git' 
+pod 'MRDLNA', :git => 'https://github.com/sszzwzb/MRDLNA_change.git' 
 
 编辑修改模式
 ```
