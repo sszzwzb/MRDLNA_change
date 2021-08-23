@@ -12,7 +12,7 @@ target 'player_Drag' do
     
     
     # '~> 0.1.1' # 435 stars  来自 DLNA_UPnP   0.1.1  不要重新删除，添加和升级
-    pod 'MRDLNA', :git => 'https://github.com/sszzwzb/podTest.git'
+    pod 'MRDLNA', :git => 'https://github.com/sszzwzb/MRDLNA_change.git'
      
       
     
